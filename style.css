@@ -1,6 +1,4 @@
 
-/* ===== Theme ===== */
-
 :root {
   --green: #6FA6A0;
   --green-dark: #08696A;
@@ -33,7 +31,6 @@ section {
   padding: 110px 0;
 }
 
-/* ===== Navbar ===== */
 .navbar {
   background: var(--green);
   border-bottom: 2px solid var(--text);
@@ -73,13 +70,6 @@ section {
   transform: translateY(-2px);
 }
 
-
-.btn-outline-green:hover {
-  background: var(--green);
-  color: var(--text);
-}
-
-/* ===== Hero ===== */
 .main {
   min-height: 100vh;
   display: flex;
@@ -138,7 +128,6 @@ section {
   border-radius: 8px;
 }
 
-/* ===== About ===== */
 .bg-white {
   background: var(--white);
 }
@@ -173,9 +162,8 @@ section {
   transition: 0.25s;
 }
 
-.info-card:hover,
-.skill-card:hover {
-  transform: translateY(-5px); 
+.info-card:hover {
+  transform: translateY(-5px);
 }
 
 .info-card h3 {
@@ -183,13 +171,6 @@ section {
   font-weight: 600;
 }
 
-.info-card p {
-  font-size: 0.9rem;
-  color: var(--muted);
-  margin-bottom: 0;
-}
-
-/* ===== Skills ===== */
 .section-heading {
   max-width: 650px;
   margin: 0 auto;
@@ -199,8 +180,6 @@ section {
   color: var(--muted);
 }
 
-
-/* ===== Projects ===== */
 .project-card {
   height: 100%;
   overflow: hidden;
@@ -236,8 +215,7 @@ section {
   color: var(--muted);
   font-size: 0.92rem;
 }
-
-/* ===== Contact & Footer ===== */
+ 
 .contact-section {
   background: var(--cream);
 }
